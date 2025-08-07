@@ -6,6 +6,7 @@ document.getElementById('home-plus-3').addEventListener('click', increment3Numbe
 document.getElementById('guest-plus-1').addEventListener('click', increment1Number1);
 document.getElementById('guest-plus-2').addEventListener('click', increment2Number1);
 document.getElementById('guest-plus-3').addEventListener('click', increment3Number1);
+document.getElementById("new-game").addEventListener("click", newGame);
 
 let homeNumber = 0 
 let guestNumber = 0
