@@ -1,5 +1,11 @@
 let number1 = document.getElementById("number-1")
 let number2 = document.getElementById("number-2")
+document.getElementById('home-plus-1').addEventListener('click', increment1Number1);
+document.getElementById('home-plus-2').addEventListener('click', increment2Number1);
+document.getElementById('home-plus-3').addEventListener('click', increment3Number1);
+document.getElementById('guest-plus-1').addEventListener('click', increment1Number1);
+document.getElementById('guest-plus-2').addEventListener('click', increment2Number1);
+document.getElementById('guest-plus-3').addEventListener('click', increment3Number1);
 
 let homeNumber = 0 
 let guestNumber = 0
